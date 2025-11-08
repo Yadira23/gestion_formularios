@@ -1,0 +1,60 @@
+{
+  "title": "1. Secretaría de Turismo del Estado de Oaxaca",
+  "description": "Preguntas para la recopilacion de datos",
+  "logo": "https://api.surveyjs.io/private/Surveys/files?name=19249759-c524-4223-b46c-ded451bd26c0",
+  "pages": [
+    {
+      "name": "page1",
+      "title": "Análisis de Turistas Nacionales en el Estado de Oaxaca",
+      "description": "Este estudio busca identificar y analizar las características principales de los turistas nacionales que visitan las distintas regiones del Estado de Oaxaca. A través de la recopilación de datos mensuales, se pretende conocer la cantidad de visitantes, su lugar de origen, rango de edad y sexo, con el fin de generar información útil para la planificación turística y la promoción regional.",
+      "elements": [
+        {
+          "type": "panel",
+          "name": "panel1",
+          "elements": [
+            {
+              "type": "matrixdropdown",
+              "name": "question1",
+              "title": "Total de turistas nacionales por región",
+              "isRequired": true,
+              "columns": [
+                {
+                  "name": "cantidad_turistas",
+                  "title": "Total turistas nacionales",
+                  "cellType": "dropdown",
+                  "choices": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                  ],
+                  "storeOthersAsComment": true,
+                  "placeholder": "Ingrese la cantidad"
+                }
+              ],
+              "choices": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "rows": [
+                {
+                  "value": "Row 1",
+                  "text": "Cañada"
+                },
+                {
+                  "value": "Row 2",
+                  "text": "Costa"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "headerView": "advanced"
+}
